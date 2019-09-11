@@ -12,6 +12,13 @@ github-repo: rstudio/bookdown-demo
 description: "An introduction to ABMI species data, models, and prediction."
 ---
 
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
 # Proposed TOC
 
 Intro to ABMI (heavily relying on 10-yr review)
@@ -39,3 +46,4 @@ Applications (awesome things you can do with cure4insect):
 
 - custom reporting
 - custom prediction
+
