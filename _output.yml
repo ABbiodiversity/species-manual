@@ -5,7 +5,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">ABMI Species Manual</a></li>
       after: |
-        <li><a href="https://www.abmi.ca" target="blank">Published ABMI</a></li>
+        <li><a href="https://www.abmi.ca" target="blank">Made by ABMI</a></li>
     edit: https://github.com/ABbiodiversity/species-manual/edit/master/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
