@@ -23,8 +23,8 @@
 }{}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
-            pdftitle={A Minimal Book Example},
-            pdfauthor={Yihui Xie},
+            pdftitle={ABMI Species Manual},
+            pdfauthor={ABMI Science Centre Team},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
@@ -116,10 +116,10 @@
 
 \setlength{\droptitle}{-2em}
 
-  \title{A Minimal Book Example}
+  \title{ABMI Species Manual}
     \pretitle{\vspace{\droptitle}\centering\huge}
   \posttitle{\par}
-    \author{Yihui Xie}
+    \author{ABMI Science Centre Team}
     \preauthor{\centering\large\emph}
   \postauthor{\par}
       \predate{\centering\large\emph}
@@ -142,28 +142,59 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\chapter{Prerequisites}\label{prerequisites}
+\chapter{Proposed TOC}\label{proposed-toc}
 
-This is a \emph{sample} book written in \textbf{Markdown}. You can use
-anything that Pandoc's Markdown supports, e.g., a math equation
-\(a^2 + b^2 = c^2\).
+Intro to ABMI (heavily relying on 10-yr review)
 
-The \textbf{bookdown} package can be installed from CRAN or Github:
+Data:
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
-\CommentTok{# or the development version}
-\CommentTok{# devtools::install_github("rstudio/bookdown")}
-\end{Highlighting}
-\end{Shaded}
+\begin{itemize}
+\tightlist
+\item
+  Species data collection (heavily relying on 10-yr review)
+\item
+  Species data manipulation (use the API and process the data)
+\item
+  Describe predictor variables
+\item
+  Describe how predictor variables are processed (i.e.~veg/HF
+  proportions from log format attribute tables)
+\end{itemize}
 
-Remember each Rmd file contains one and only one chapter, and a chapter
-is defined by the first-level heading \texttt{\#}.
+Species data analysis (describe the approach, point to code base when
+exists, again: relying on 10-yr review tech appendices):
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to
-install TinyTeX (which includes XeLaTeX):
-\url{https://yihui.name/tinytex/}.
+\begin{itemize}
+\tightlist
+\item
+  Modeling
+\item
+  Prediction
+\item
+  Stat validation
+\end{itemize}
+
+Outputs:
+
+\begin{itemize}
+\tightlist
+\item
+  visualizations
+\item
+  maps
+\item
+  API (cure4insect)
+\end{itemize}
+
+Applications (awesome things you can do with cure4insect):
+
+\begin{itemize}
+\tightlist
+\item
+  custom reporting
+\item
+  custom prediction
+\end{itemize}
 
 \chapter{Introduction}\label{intro}
 
