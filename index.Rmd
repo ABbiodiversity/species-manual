@@ -46,4 +46,5 @@ Applications (awesome things you can do with cure4insect):
 
 - custom reporting
 - custom prediction
+- multi-species stuff (richness,  intactness)
 
