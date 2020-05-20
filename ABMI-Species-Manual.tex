@@ -108,12 +108,6 @@
 \def\fps@figure{htbp}
 \makeatother
 
-\usepackage{etoolbox}
-\makeatletter
-\providecommand{\subtitle}[1]{% add subtitle to \maketitle
-  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
-}
-\makeatother
 \usepackage{booktabs}
 \usepackage{amsthm}
 \makeatletter
@@ -122,26 +116,10 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
-% https://github.com/rstudio/rmarkdown/issues/337
-\let\rmarkdownfootnote\footnote%
-\def\footnote{\protect\rmarkdownfootnote}
-
-% https://github.com/rstudio/rmarkdown/pull/252
-\usepackage{titling}
-\setlength{\droptitle}{-2em}
-
-\pretitle{\vspace{\droptitle}\centering\huge}
-\posttitle{\par}
-
-\preauthor{\centering\large\emph}
-\postauthor{\par}
-
-\predate{\centering\large\emph}
-\postdate{\par}
 
 \title{ABMI Species Manual}
 \author{ABMI Science Centre Team}
-\date{2019-12-04}
+\date{2020-05-20}
 
 \begin{document}
 \maketitle
@@ -150,6 +128,8 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
+Hey!
+
 \chapter{Proposed TOC}\label{proposed-toc}
 
 Intro to ABMI (heavily relying on 10-yr review)
