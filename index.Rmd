@@ -18,11 +18,10 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
-Hey!
 
 # Proposed TOC
 
-Intro to ABMI (heavily relying on 10-yr review)
+Intro to ABMI (heavily relying on 10-yr review) of course
 
 Data:
 
