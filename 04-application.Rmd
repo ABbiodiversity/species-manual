@@ -4,4 +4,6 @@ Some _significant_ applications are demonstrated in this chapter.
 
 ## Example one
 
+Here is the last sentence I added.
+
 ## Example two
