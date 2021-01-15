@@ -1,0 +1,10 @@
+fig:nice-fig
+tab:nice-tab
+proposed-toc
+intro
+literature
+methods
+applications
+example-one
+example-two
+final-words
