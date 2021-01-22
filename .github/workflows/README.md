@@ -16,3 +16,11 @@ renv::snapshot(type="explicit")
 ```
 
 
+
+## Links
+
+I took inspiration from these actions and yaml files
+
+- https://github.com/marketplace/actions/github-pages-action
+- https://github.com/r-lib/actions/blob/master/examples/bookdown.yaml
+

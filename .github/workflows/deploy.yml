@@ -22,7 +22,7 @@ jobs:
       - name: Install pandoc and calibre
         run: |
           brew install pandoc
-          brew cask install calibre
+          brew install calibre
 
       - name: Cache renv packages
         uses: actions/cache@v2
