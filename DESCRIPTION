@@ -1,6 +1,7 @@
 Package: placeholder
-Type: Book
+Type: Package
 Title: Does not matter.
 Version: 0.0.1
-Imports: bookdown
-Remotes: rstudio/bookdown
+Imports:
+  bookdown
+Remotes:

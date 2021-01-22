@@ -9,7 +9,7 @@ We do this based on the DESCRIPTION file so that
 
 ```R
 ## initialize when starting fresh
-renv::init(bare = TRUE)
+renv::init()
 
 ## periodically update
 renv::snapshot(type="explicit")
