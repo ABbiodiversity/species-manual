@@ -15,7 +15,19 @@ renv::init()
 renv::snapshot(type="explicit")
 ```
 
+## Install
 
+The pdf version looks like a pain...
+Which means, we have to do it by hand.
+
+```R
+Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
+Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::pdf_book")'
+Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::epub_book")'
+Rscript -e 'bookdown::calibre("_book/ABMI-Species-Manual.epub", "mobi")'
+```
+
+For most cases, this is not too important.
 
 ## Links
 
