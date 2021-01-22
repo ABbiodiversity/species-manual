@@ -19,10 +19,8 @@ jobs:
       - name: Setup R
         uses: r-lib/actions/setup-r@v1
 
-      - name: Install pandoc and calibre
-        run: |
-          brew install pandoc
-          brew install calibre
+      - name: Install pandoc
+        run: brew install pandoc
 
       - name: Cache renv packages
         uses: actions/cache@v2
@@ -48,7 +46,6 @@ jobs:
           Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
           Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::pdf_book")'
           Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::epub_book")'
-          Rscript -e 'bookdown::calibre("_book/ABMI-Species-Manual.epub", "mobi")'
           touch _book/.nojekyll
 
       - name: Deploy to GitHub pages
