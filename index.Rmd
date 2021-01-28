@@ -21,7 +21,9 @@ knitr::write_bib(c(
 
 # Proposed TOC
 
-Intro to ABMI (heavily relying on 10-yr review) of course
+Intro to ABMI (heavily relying on 10-yr review) of course!
+
+New stuff...
 
 Data:
 
